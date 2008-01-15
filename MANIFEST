@@ -1,0 +1,13 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Catalyst/Plugin/Authentication/AuthTkt.pm
+lib/Catalyst/Plugin/Authentication/Credential/AuthTkt.pm
+lib/Catalyst/Plugin/Authentication/Store/AuthTkt.pm
+lib/Catalyst/Plugin/Authentication/User/AuthTkt.pm
+t/00-load.t
+t/boilerplate.t
+t/pod-coverage.t
+t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
