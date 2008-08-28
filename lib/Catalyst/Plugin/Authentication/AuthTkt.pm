@@ -3,11 +3,11 @@ package Catalyst::Plugin::Authentication::AuthTkt;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
-Catalyst::Plugin::Authentication::AuthTkt - shim for Apache::AuthTkt
+Catalyst::Plugin::Authentication::AuthTkt - **DEPRECATED** shim for Apache::AuthTkt
 
 =head1 SYNOPSIS
 
@@ -49,6 +49,8 @@ Catalyst::Plugin::Authentication::AuthTkt - shim for Apache::AuthTkt
     }
 
 =head1 DESCRIPTION
+
+B<THIS MODULE IS DEPRECATED. See Catalyst::Authentication::AuthTkt instead.>
 
 This module implements the Catalyst::Plugin::Authentication API for Apache::AuthTkt version 0.08 and later.
 

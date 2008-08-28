@@ -10,7 +10,7 @@ use Catalyst::Plugin::Authentication::User::AuthTkt;
 
 __PACKAGE__->mk_accessors(qw( cookie_name ticket ));
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
